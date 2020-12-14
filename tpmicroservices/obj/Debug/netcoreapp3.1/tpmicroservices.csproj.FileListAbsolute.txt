@@ -1,0 +1,5 @@
+C:\Users\Saad\source\repos\tpmicroservices\tpmicroservices\obj\Debug\netcoreapp3.1\tpmicroservices.csprojAssemblyReference.cache
+C:\Users\Saad\source\repos\tpmicroservices\tpmicroservices\obj\Debug\netcoreapp3.1\tpmicroservices.AssemblyInfoInputs.cache
+C:\Users\Saad\source\repos\tpmicroservices\tpmicroservices\obj\Debug\netcoreapp3.1\tpmicroservices.AssemblyInfo.cs
+C:\Users\Saad\source\repos\tpmicroservices\tpmicroservices\obj\Debug\netcoreapp3.1\tpmicroservices.csproj.CoreCompileInputs.cache
+C:\Users\Saad\source\repos\tpmicroservices\tpmicroservices\obj\Debug\netcoreapp3.1\tpmicroservices.MvcApplicationPartsAssemblyInfo.cache
