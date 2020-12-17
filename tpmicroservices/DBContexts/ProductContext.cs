@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using tpmicroservices.Models;
 
-namespace ProductMicroservice.DBContexts
+namespace tpmicroservices.DBContexts
 {
     public class ProductContext : DbContext
     {

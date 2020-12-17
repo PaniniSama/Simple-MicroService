@@ -1,5 +1,4 @@
 using System;
-using System.Data.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,7 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-using ProductMicroservice.DBContexts;
+using tpmicroservices.DBContexts;
+using tpmicroservices.Repository;
 
 namespace tpmicroservices
 {
@@ -31,6 +31,7 @@ namespace tpmicroservices
             services.AddControllers();
             services.AddDbContext<ProductContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("ProductDB_TP4")));
+            services.AddTransient<IProductRepository, ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
